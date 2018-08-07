@@ -1,0 +1,15 @@
+body {
+  font-family: "Helvettica", "Arial", sans-serif;
+}
+
+.bg-lightgray {
+  background-color: #e5e7e9;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
