@@ -13,3 +13,11 @@ body {
 .text-underline {
   text-decoration: underline;
 }
+
+.border-black {
+  border: 1px solid black;
+}
+
+.border-radius-20 {
+  border-radius: 20px;
+}
