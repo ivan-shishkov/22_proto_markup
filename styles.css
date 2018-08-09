@@ -21,3 +21,12 @@ body {
 .border-radius-20 {
   border-radius: 20px;
 }
+
+.btn-show-tel {
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+.border-bottom-grey {
+  border-bottom: 1px solid grey;
+}
