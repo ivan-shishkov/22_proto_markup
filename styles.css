@@ -34,3 +34,13 @@ body {
 .border-bottom-grey {
   border-bottom: 1px solid grey;
 }
+
+.carousel-control-next {
+  right: -10px !important;
+  width: 5% !important;
+}
+
+.carousel-control-prev {
+  left: -10px !important;
+  width: 5% !important;
+}
