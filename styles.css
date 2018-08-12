@@ -48,3 +48,7 @@ body {
   left: -10px !important;
   width: 5% !important;
 }
+
+.width-200 {
+  width: 200px;
+}
