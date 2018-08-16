@@ -14,34 +14,7 @@
           <h1>Заявки</h1>
         </div>
       </div>
-      <div class="row border-bottom-grey pb-2 mb-3 mt-2">
-        <div class="col-sm-3 text-left pl-0 pr-0 mb-2">
-          раздел:
-          <div class="dropdown d-inline-block ml-1">
-            <a class="dropdown-toggle text-underline" href="#" role="button" id="dropdownSectionLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Все
-            </a>
-            <div class="dropdown-menu bg-lightgray" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">ЖБИ</a>
-              <a class="dropdown-item" href="#">Кирпич</a>
-              <a class="dropdown-item" href="#">Бетон</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-9 text-sm-right pl-0 pr-0 mb-2">
-          регион:
-          <div class="dropdown d-inline-block ml-1">
-            <a class="dropdown-toggle text-underline" href="#" role="button" id="dropdownRegionLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Новосибирск и область
-            </a>
-            <div class="dropdown-menu bg-lightgray" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Москва и область</a>
-              <a class="dropdown-item" href="#">Санкт-Петербург и область</a>
-              <a class="dropdown-item" href="#">Краснодар и область</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% include '_requisitions_filter.html' %}
       {% for __ in range(number_requisitions_per_page) %}
         {% include '_requisition.html' %}
       {% endfor %}
