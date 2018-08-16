@@ -42,28 +42,9 @@
           </div>
         </div>
       </div>
-      <div class="row border-bottom-grey pb-3 mb-3">
-        <div class="col">
-          <div class="row">
-            <div class="col-6 text-left text-muted pl-0 pr-0">вчера, в 21:30</div>
-            <div class="col-6 text-right text-muted pl-0 pr-0"><span class="fas fa-star"></span> <a class="text-underline text-muted" href="#">в закладки</a></div>
-          </div>
-          <div class="row">
-            <div class="col pl-0 pr-0 mt-3">
-              <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
-              <p>Алексей</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-auto pl-0">
-              <button type="button" class="btn btn-light btn-show-tel">Показать телефон</button>
-            </div>
-            <div class="col pl-1 pt-2">
-              <h6>12 просмотров</h6>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% for __ in range(number_requisitions_per_page) %}
+        {% include '_requisition.html' %}
+      {% endfor %}
       <div class="row">
         <div class="col text-center pt-3">
           <a class="btn btn-outline-dark btn-lg width-200 border-radius-30" href="#" role="button">Показать еще</a>
