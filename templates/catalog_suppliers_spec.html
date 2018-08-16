@@ -34,26 +34,9 @@
       <a class="btn btn-outline-dark btn-lg border-radius-30" href="index.html#requisition" role="button">Оставить заявку</a>
     </div>
     <div class="col-sm-9 col-md-7 col-lg-6 mx-auto">
-      <div class="media p-3 border-black margin-top-shift">
-        <img class="mr-3" src="static/img/company_logo.png" alt="Generic placeholder image">
-        <div class="media-body">
-          <h5 class="mt-0">ООО Строй-Сервис-Монтаж</h5>
-          <b>Место деятельности:</b> Новосибирск<br>
-          <b>Продукция:</b> ЖБИ, бетон<br>
-          <b>Адрес:</b> Под часами, на том же месте<br>
-          <b>Телефон:</b> 00-00-00
-        </div>
-      </div>
-      <div class="media p-3 border-black margin-top-shift">
-        <img class="mr-3" src="static/img/company_logo.png" alt="Generic placeholder image">
-        <div class="media-body">
-          <h5 class="mt-0">ООО Строй-Сервис-Монтаж</h5>
-          <b>Место деятельности:</b> Новосибирск<br>
-          <b>Продукция:</b> ЖБИ, бетон<br>
-          <b>Адрес:</b> Под часами, на том же месте<br>
-          <b>Телефон:</b> 00-00-00
-        </div>
-      </div>
+      {% for __ in range(number_suppliers_info_per_page) %}
+        {% include '_supplier_info.html' %}
+      {% endfor %}
       <div class="row mt-4">
         <div class="col-auto mx-auto">
           <nav aria-label="Page navigation example">
