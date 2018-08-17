@@ -6,6 +6,10 @@ body {
   background-color: #e5e7e9;
 }
 
+.bg-darkgray {
+  background-color: #d7dbdd;
+}
+
 .text-black {
   color: black !important;
 }
