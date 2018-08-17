@@ -109,27 +109,13 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="media m-4 p-2 border-black">
-              <img class="mr-2 border-black" src="static/img/profile.png" alt="Generic placeholder image">
-              <div class="media-body">
-                <h5 class="mt-0">Кирилл, 29 лет, г. Барабинск</h5>
-                Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-                Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-                Бла-бла, мне помогло, все супер!
-              </div>
-            </div>
+            {% include '_review.html' %}
           </div>
-          <div class="carousel-item">
-            <div class="media m-4 p-2 border-black">
-              <img class="mr-2 border-black" src="static/img/profile.png" alt="Generic placeholder image">
-              <div class="media-body">
-                <h5 class="mt-0">Кирилл, 29 лет, г. Барабинск</h5>
-                Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-                Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-                Бла-бла, мне помогло, все супер!
-              </div>
+          {% for __ in range(number_reviews - 1) %}
+            <div class="carousel-item">
+              {% include '_review.html' %}
             </div>
-          </div>
+          {% endfor %}
         </div>
         <a class="carousel-control-prev text-dark" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="fas fa-caret-left fa-3x" aria-hidden="true"></span>
