@@ -1,11 +1,11 @@
 # Suppliers in Novosibirsk
 
-This is an example of the site with adaptive design which is builded with using of:
+This is an example of the responsive website which is created with using of:
 
 * Bootstrap 4
 * Jinja2 template engine
 
-Rendered version of the site is hosted on GitHub Pages and available [here](https://ivan-shishkov.github.io/22_proto_markup/rendered_site/).
+Online version of the site is hosted on GitHub Pages and available [here](https://ivan-shishkov.github.io/22_proto_markup/rendered_site/).
 
 # Project Goals
 
