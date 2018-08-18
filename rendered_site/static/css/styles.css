@@ -1,0 +1,82 @@
+body {
+  font-family: "Helvettica", "Arial", sans-serif;
+}
+
+.bg-lightgray {
+  background-color: #e5e7e9;
+}
+
+.bg-darkgray {
+  background-color: #d7dbdd;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.border-radius-20 {
+  border-radius: 20px;
+}
+
+.border-radius-30 {
+  border-radius: 30px;
+}
+
+.btn-show-tel {
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+.border-bottom-grey {
+  border-bottom: 1px solid grey;
+}
+
+.border-top-black {
+  border-top: 1px solid black;
+}
+
+.carousel-control-next {
+  right: -10px !important;
+  width: 5% !important;
+}
+
+.carousel-control-prev {
+  left: -10px !important;
+  width: 5% !important;
+}
+
+.width-200 {
+  width: 200px;
+}
+
+.breadcrumb {
+  background-color: inherit;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+.child {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.helper {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 0;
+}
+
+.margin-top-shift {
+  margin-top: -1px;
+}
