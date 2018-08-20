@@ -6,6 +6,7 @@ context = {
     'number_suppliers_info_per_page': 6,
     'number_reviews': 2,
     'username': 'Леонид Федорович',
+    'STATIC_URL': 'static/',
 }
 
 if __name__ == '__main__':
